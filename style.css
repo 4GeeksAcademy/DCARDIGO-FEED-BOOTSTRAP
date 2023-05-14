@@ -1,0 +1,32 @@
+
+
+.logoig{
+
+    width: 25px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-bottom: 32px;
+}
+
+
+.material-icons{
+
+    margin-top: 3px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #0167ff;
+    background-color: #ffffff;
+  }
+
+
+  .nav {
+ 
+    --bs-nav-link-color: #212529;
+
+  }
+
+  .dropdown-menu[data-bs-popper] {
+   
+    left: -152%;
+  }
