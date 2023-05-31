@@ -1,308 +1,309 @@
-
-
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap -->
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- bootstrap -->
 
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-      <!-- mi css -->
+        <!-- mi css -->
 
-      <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style.css">
 
-      <!-- Fontawesome icon -->
+        <!-- Fontawesome icon -->
 
-      <script src="https://kit.fontawesome.com/68f95215d5.js" crossorigin="anonymous"></script>
-
-
-      <title>Feed whit Bootstrap</title>
-
-  </head>
-
-  <body>
-
-    <!-- navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
-      <img class="logoig" src="https://cdn.icon-icons.com/icons2/791/PNG/512/instagram_f_icon-icons.com_65485.png" alt="">
-      <p class="navbar-brand pb-4" href="#">Instagram</p>
-      <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto"> </ul>
-        <div class="form-inline my-2 my-lg-0 w-50 d-flex justify-content-end">
-
-                  <!-- Button trigger modal -->
-          <button type="button" class="btn btn-success py-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Create a new post
-          </button>
-
-                  <!-- Modal -->
-
-                  <!-- Encabezado -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                      <!-- final encabezado -->
-
-                      <!-- texto -->
-
-                <div class="modal-body">
-                  <h6 class="modal-title" id="exampleModalLabel"> Caption: </h6>
-                  <div class="form-floating">
-                    <textarea class="form-control" placeholder="Hola" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label class="text-black-50" for="floatingTextarea2">Add the caption of your post here</label>                    
-                  </div>
-                </div>
-
-                        <!-- final texto -->
-
-                        <!-- botones camara gps -->
-
-                <div class="btn-cam-gps mx-3 mb-4" >
-
-                  <button type="button" class="btn btn-light border">
-                    <i class="fa-solid fa-camera"></i>
-                  </button>
-
-                  <button type="button" class="btn btn-light border mx-1">
-                    <i class="fa-solid fa-location-dot"></i>
-                  </button>
-
-                </div>
-
-                              <!-- final botones camara gps -->
-
-                              <!-- pie -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-success">Publish</button>
-                </div>
-
-              </div>
-            </div>
-          </div>
+        <script src="https://kit.fontawesome.com/68f95215d5.js" crossorigin="anonymous"></script>
 
 
-                          <!--dropdown  -->
+        <title>Feed whit Bootstrap</title>
 
-          <div class="btn-group">
+    </head>
 
-            <button type="button" class="btn btn-secondary dropdown-toggle py-1 px-2 mx-2" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-gear" style="color: #fffdfd;"></i>
+    <body>
+
+                                <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+        <img class="logoig" src="https://cdn.icon-icons.com/icons2/791/PNG/512/instagram_f_icon-icons.com_65485.png" alt="">
+        <p class="navbar-brand pb-4" href="#">Instagram</p>
+        <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"> </ul>
+          <div class="form-inline my-2 my-lg-0 w-50 d-flex justify-content-end">
+
+                                <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success py-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create a new post
             </button>
 
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><a class="dropdown-item" href="#">Accesibility</a></li>
-              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
-            </ul>
+                                <!-- Modal -->
 
-          </div>
-                
-                        <!-- final Drop down -->
-        </div>
-      </div>
-    </nav>
+                                <!-- Encabezado -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
 
-                            <!-- final NavBar -->
+                                <!-- Final encabezado -->
 
-                            <!-- JS Behaivor -->
+                                <!-- Texto -->
 
+                  <div class="modal-body">
+                    <h6 class="modal-title" id="exampleModalLabel"> Caption: </h6>
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="Hola" id="floatingTextarea2" style="height: 100px"></textarea>
+                      <label class="text-black-50" for="floatingTextarea2">Add the caption of your post here</label>                    
+                    </div>
+                  </div>
 
-                            <!-- Botones -->
-    <nav>
-      <div class="nav  d-flex justify-content-center mt-3" id="nav-tab" role="tablist">
+                                <!-- Final texto -->
 
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-            <i class="fa-solid fa-table-cells"></i>
-          </button>
+                                <!-- Botones camara gps -->
 
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-            <i class="fa-solid fa-square"></i>
-          </button>
+                  <div class="btn-cam-gps mx-3 mb-4" >
 
-      </div>               
-    </nav>
-              <!-- Cuadricula -->
+                    <button type="button" class="btn btn-light border">
+                      <i class="fa-solid fa-camera"></i>
+                    </button>
 
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <button type="button" class="btn btn-light border mx-1">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </button>
 
+                  </div>
 
-                      <!-- Row1 -->
+                                <!-- Final botones camara gps -->
 
-          <div class="container text-center m-0 mw-100 ">
-            <div class="row px-1">
+                                <!-- Pie -->
 
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.cN5UjdvMRcxhUmqSIsnCdAHaHa%26pid%3DApi&f=1&ipt=acbe9d3c91d2fa59262ea95e5b9527c5d5e78678f09f1ef3ec33ec0f141db7c6&ipo=images" class="img-fluid" alt="...">
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                  </div>
+
+                </div>
               </div>
+            </div>
 
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F7b%2Ffe%2F7f%2F7bfe7fc3b17d59f2016c945631f8f8c2--land-theater.jpg&f=1&nofb=1&ipt=db9c08e9ae0cf735c80ebc766a22a1479690515605dd1886b81b6880d49f593d&ipo=images" class="img-fluid" alt="...">
-              </div>
+                                <!--Dropdown  -->
 
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fmedio%2F2018%2F08%2F08%2Fage-qpx-150805115__800x800.jpg&f=1&nofb=1&ipt=b9c422a939329acddb6b687865e03e7cb1c5623280245165e07d8a24ac4d4cad&ipo=images" class="img-fluid" alt="...">
-              </div>
+            <div class="btn-group">
+
+              <button type="button" class="btn btn-secondary dropdown-toggle py-1 px-2 mx-2" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-gear" style="color: #fffdfd;"></i>
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+              </ul>
 
             </div>
+                  
+                              <!-- Final Drop down -->
           </div>
+        </div>
+      </nav>
 
-                    <!-- Row2 -->
-        
-          <div class="container text-center m-0 mw-100 ">
-            <div class="row px-1">
+                              <!-- Final NavBar -->
 
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.elblogdelasalud.info%2Fanimales%2Fwp-content%2Fuploads%2F2018%2F09%2FRazas-de-perros-pequenos.jpg&f=1&nofb=1&ipt=6e8bd966448e7f50e3d2b8366233ac0a82a3df5ea918942961e529ea31ca7d05&ipo=images" class="img-fluid" alt="...">
+                              <!-- JS Behaivor -->
+
+
+                              <!-- Botones -->
+      <nav>
+        <div class="nav  d-flex justify-content-center mt-3" id="nav-tab" role="tablist">
+
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+              <i class="fa-solid fa-table-cells"></i>
+            </button>
+
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              <i class="fa-solid fa-square"></i>
+            </button>
+
+        </div>               
+      </nav>
+                              <!-- Cuadricula -->
+
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+
+                                <!-- Row1 -->
+
+            <div class="container text-center m-0 mw-100 ">
+              <div class="row px-1">
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.cN5UjdvMRcxhUmqSIsnCdAHaHa%26pid%3DApi&f=1&ipt=acbe9d3c91d2fa59262ea95e5b9527c5d5e78678f09f1ef3ec33ec0f141db7c6&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F7b%2Ffe%2F7f%2F7bfe7fc3b17d59f2016c945631f8f8c2--land-theater.jpg&f=1&nofb=1&ipt=db9c08e9ae0cf735c80ebc766a22a1479690515605dd1886b81b6880d49f593d&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fmedio%2F2018%2F08%2F08%2Fage-qpx-150805115__800x800.jpg&f=1&nofb=1&ipt=b9c422a939329acddb6b687865e03e7cb1c5623280245165e07d8a24ac4d4cad&ipo=images" class="img-fluid" alt="...">
+                </div>
+
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.3TKHdofawve-SjOY0r5_ngHaHa%26pid%3DApi&f=1&ipt=eec423648997f4ddf20f0052a5f23700a498aab209192d22093b85c7dc82e472&ipo=images" class="img-fluid" alt="...">
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F1f%2F34%2F5e%2F1f345e48867f745b0bc1d259fe8f0854.jpg&f=1&nofb=1&ipt=377257dceae044d51bcf8821e3dc5af325d05be75df1926e3c500fcd098a60de&ipo=images" class="img-fluid" alt="...">
-              </div>
-
             </div>
-          </div>
 
-                        <!-- Row3 -->
-        
-          <div class="container text-center m-0 mw-100 ">
-            <div class="row px-1">
+                                <!-- Row2 -->
+          
+            <div class="container text-center m-0 mw-100 ">
+              <div class="row px-1">
 
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.desnivel.com%2Fimages%2F2020%2F09%2Fpresas-de-escalada-euroholds-3.jpg&f=1&nofb=1&ipt=c6814c2eb4e67865a1c5caf170791f1090896781efc9e9398e940a1c3aaaed4d&ipo=images" class="img-fluid" alt="...">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.elblogdelasalud.info%2Fanimales%2Fwp-content%2Fuploads%2F2018%2F09%2FRazas-de-perros-pequenos.jpg&f=1&nofb=1&ipt=6e8bd966448e7f50e3d2b8366233ac0a82a3df5ea918942961e529ea31ca7d05&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.3TKHdofawve-SjOY0r5_ngHaHa%26pid%3DApi&f=1&ipt=eec423648997f4ddf20f0052a5f23700a498aab209192d22093b85c7dc82e472&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F1f%2F34%2F5e%2F1f345e48867f745b0bc1d259fe8f0854.jpg&f=1&nofb=1&ipt=377257dceae044d51bcf8821e3dc5af325d05be75df1926e3c500fcd098a60de&ipo=images" class="img-fluid" alt="...">
+                </div>
+
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F14146825%2Fr%2Fil%2F7f18b2%2F1973088626%2Fil_1588xN.1973088626_67r3.jpg&f=1&nofb=1&ipt=e3a1b3ec542358b4e108101a2ab166a1307ed5c8c08b02f7b341d15575c1e9c8&ipo=images" class="img-fluid" alt="...">
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-4 p-1">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.ecartelera.com%2Fnoticias%2F55200%2F55227-m.jpg&f=1&nofb=1&ipt=fb224c660e558c1a8d960174e8e75c6318a423ca8b92bd66ec8912bd498db1db&ipo=images" class="img-fluid" alt="...">
-              </div>
-
             </div>
+
+                                <!-- Row3 -->
+          
+            <div class="container text-center m-0 mw-100 ">
+              <div class="row px-1">
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.desnivel.com%2Fimages%2F2020%2F09%2Fpresas-de-escalada-euroholds-3.jpg&f=1&nofb=1&ipt=c6814c2eb4e67865a1c5caf170791f1090896781efc9e9398e940a1c3aaaed4d&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F14146825%2Fr%2Fil%2F7f18b2%2F1973088626%2Fil_1588xN.1973088626_67r3.jpg&f=1&nofb=1&ipt=e3a1b3ec542358b4e108101a2ab166a1307ed5c8c08b02f7b341d15575c1e9c8&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.ecartelera.com%2Fnoticias%2F55200%2F55227-m.jpg&f=1&nofb=1&ipt=fb224c660e558c1a8d960174e8e75c6318a423ca8b92bd66ec8912bd498db1db&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+
+                                <!-- Feed -->
+
+
+      <div class="tab-pane fade d-flex justify-content-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+  
+        <div class="container text-center">
+          
+                                <!-- Row1 -->
+          <div class="row">      
+
+            <div class="col"></div>  <!-- columna vacia*/ -->
+
+            <div class="col-12 col-md-9 col-lg-6">   
+              <div class="card border mb-3 mw-100" style="max-width: 18rem;">
+
+                <span class="card-header bg-transparent border d-flex">
+                  <h4 class="m-0 d-flex flex-row w-50 d-inline">Playas de Cuba</h4>
+                  <h6 class="m-0 d-flex flex-row-reverse text-black-50 w-50"> 8/25</h6>
+                </span>
+
+                <div class="card-body text-success p-0">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F7b%2Ffe%2F7f%2F7bfe7fc3b17d59f2016c945631f8f8c2--land-theater.jpg&f=1&nofb=1&ipt=db9c08e9ae0cf735c80ebc766a22a1479690515605dd1886b81b6880d49f593d&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="card-footer bg-transparent border d-block ">
+                  <p class="fw-bold d-flex mb-1">1256 Likes</p>
+                  <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, eligendi sequi odio eaque consequatur? Laborum deserunt quae velit delectus quaerat</p>              
+                </div>
+
+              </div> 
+            </div>
+
+            <div class="col"></div> <!-- columna vacia*/ -->
+
           </div>
+
+                                  <!-- Row2 -->
+
+          <div class="row mt-2">    
+
+            <div class="col"></div> <!-- columna vacia*/ -->
+          
+            <div class="col-12 col-md-9 col-lg-6">         
+              <div class="card border mb-3 mw-100" style="max-width: 18rem;">
+
+                <div class="card-header bg-transparent border d-flex">
+                  <h4 class="m-0 d-flex flex-row w-50">Invierno en el bosque</h4>
+                  <h6 class="m-0 d-flex flex-row-reverse text-black-50 w-50"> 9/25</h6>
+                </div>
+
+                <div class="card-body text-success p-0">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fmedio%2F2018%2F08%2F08%2Fage-qpx-150805115__800x800.jpg&f=1&nofb=1&ipt=b9c422a939329acddb6b687865e03e7cb1c5623280245165e07d8a24ac4d4cad&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="card-footer bg-transparent border d-block ">
+                  <p class="fw-bold d-flex mb-1">559 Likes</p>
+                  <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, eligendi sequi odio eaque consequatur? Laborum deserunt quae velit delectus quaerat</p>
+                </div>
+
+              </div> 
+            </div>
+
+            <div class="col"></div> <!-- columna vacia*/ -->
+
+          </div>
+
+                                    <!-- Row3 -->
+
+          <div class="row mt-2">      
+
+            <div class="col"></div> <!-- columna vacia*/ -->
+
+            <div class="col-12 col-md-9 col-lg-6">         
+              <div class="card border mb-3 mw-100" style="max-width: 18rem;">
+
+                <div class="card-header bg-transparent border d-flex">
+                  <h4 class="m-0 d-flex flex-row w-50"> Zelda Tears of the Kingdom</h4>
+                  <h6 class="m-0 d-flex flex-row-reverse text-black-50 w-50"> 10/25</h6>
+                </div>
+
+                <div class="card-body text-success p-0">
+                  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F14146825%2Fr%2Fil%2F7f18b2%2F1973088626%2Fil_1588xN.1973088626_67r3.jpg&f=1&nofb=1&ipt=e3a1b3ec542358b4e108101a2ab166a1307ed5c8c08b02f7b341d15575c1e9c8&ipo=images" class="img-fluid" alt="...">
+                </div>
+
+                <div class="card-footer bg-transparent border d-block ">
+                  <p class="fw-bold d-flex mb-1">8543 Likes</p>
+                  <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, eligendi sequi odio eaque consequatur? Laborum deserunt quae velit delectus quaerat</p>
+                </div>
+
+              </div> 
+            </div>
+
+            <div class="col"></div> <!-- columna vacia*/ -->
+
+          </div>
+
+        </div>
 
       </div>
-    </div>
 
+                                      <!-- Final JS Behaivor -->
 
-                       <!-- Feed -->
-
-
-    <div class="tab-pane fade d-flex justify-content-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-      
-      
-      <div class="container text-center">
-        
-                          <!-- row1 -->
-        <div class="row">      
-          <div class="col">
-          </div>
-
-          <div class="col-12 col-md-9 col-lg-6">         
-            <div class="card border mb-3 mw-100" style="max-width: 18rem;">
-              <span class="card-header bg-transparent border d-flex">
-                <h4 class="m-0 d-flex flex-row w-50 d-inline">Playas de Cuba</h4>
-                <h6 class="m-0 d-flex flex-row-reverse text-black-50 w-50"> 8/25</h6>
-              </span>
-              <div class="card-body text-success p-0">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F7b%2Ffe%2F7f%2F7bfe7fc3b17d59f2016c945631f8f8c2--land-theater.jpg&f=1&nofb=1&ipt=db9c08e9ae0cf735c80ebc766a22a1479690515605dd1886b81b6880d49f593d&ipo=images" class="img-fluid" alt="...">
-              </div>
-              <div class="card-footer bg-transparent border d-block ">
-                <p class="fw-bold d-flex mb-1">1256 Likes</p>
-                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, eligendi sequi odio eaque consequatur? Laborum deserunt quae velit delectus quaerat</p>
-
-              </div>
-            </div> 
-          </div>
-
-          <div class="col">         
-          </div>
-        </div>
-                              <!-- row2 -->
-        <div class="row mt-2">      
-          <div class="col">
-          </div>
-        
-          <div class="col-12 col-md-9 col-lg-6">         
-            <div class="card border mb-3 mw-100" style="max-width: 18rem;">
-              <div class="card-header bg-transparent border d-flex">
-              <h4 class="m-0 d-flex flex-row w-50">Invierno en el bosque</h4>
-              <h6 class="m-0 d-flex flex-row-reverse text-black-50 w-50"> 9/25</h6>
-              </div>
-              <div class="card-body text-success p-0">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fmedio%2F2018%2F08%2F08%2Fage-qpx-150805115__800x800.jpg&f=1&nofb=1&ipt=b9c422a939329acddb6b687865e03e7cb1c5623280245165e07d8a24ac4d4cad&ipo=images" class="img-fluid" alt="...">
-              </div>
-              <div class="card-footer bg-transparent border d-block ">
-                <p class="fw-bold d-flex mb-1">559 Likes</p>
-                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, eligendi sequi odio eaque consequatur? Laborum deserunt quae velit delectus quaerat</p>
-
-              </div>
-            </div> 
-          </div>
-
-          <div class="col">         
-          </div>
-        </div>
-                              <!-- row3 -->
-        <div class="row mt-2">      
-          <div class="col">
-          </div>
-
-          <div class="col-12 col-md-9 col-lg-6">         
-            <div class="card border mb-3 mw-100" style="max-width: 18rem;">
-              <div class="card-header bg-transparent border d-flex">
-                <h4 class="m-0 d-flex flex-row w-50"> Zelda Tears of the Kingdom</h4>
-                <h6 class="m-0 d-flex flex-row-reverse text-black-50 w-50"> 10/25</h6>
-              </div>
-              <div class="card-body text-success p-0">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F14146825%2Fr%2Fil%2F7f18b2%2F1973088626%2Fil_1588xN.1973088626_67r3.jpg&f=1&nofb=1&ipt=e3a1b3ec542358b4e108101a2ab166a1307ed5c8c08b02f7b341d15575c1e9c8&ipo=images" class="img-fluid" alt="...">
-              </div>
-              <div class="card-footer bg-transparent border d-block ">
-                <p class="fw-bold d-flex mb-1">8543 Likes</p>
-                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, eligendi sequi odio eaque consequatur? Laborum deserunt quae velit delectus quaerat</p>
-
-              </div>
-            </div> 
-          </div>
-
-          <div class="col">         
-          </div>
-        </div>
-
-      </div>
-      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     
-      
-    </div>
-   
-
-
-                                               <!-- FInal JS Behaivor -->
-
-
-
-
-
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
-</html>
+    </body>
+  </html>
